@@ -1,0 +1,4 @@
+podman stop models_roberta_tfidf
+podman rm models_roberta_tfidf
+podman rmi localhost/trade_news_classes_models_roberta_tfidf:latest
+podman-compose up -d
